@@ -52,7 +52,8 @@
 
 		<!-- Banner -->
 		<section id="banner">
-			<div id="leftColumnTopBannerLanding">
+
+			<!-- <div id="leftColumnTopBannerLanding">
 				<h2 id="landingTitle">Cryptocurrency made easy through a simulation game.</h2>
 				<p id="landingDescription">Create a free account with 10k virtual dollars and learn how to buy and sell cryptocurrencies with real time prices.</p>
 				<p align="left"><button id="startTradingBtn">Start Trading</button></p>
@@ -61,8 +62,63 @@
 			<div id="rightColumnTopBannerLanding">
 				<img src="images/Macbook.png" alt="" class="imageFix" style="max-width: 100%;">
 				
-			</div>
+			</div> -->
 
+			<div class="bannerContainerSlideshow">
+
+				<input type="radio" name="images" id="i1" checked>
+				<input type="radio" name="images" id="i2">
+				<input type="radio" name="images" id="i3">
+
+				<div class="slide_img" id="oneImage">
+					<h2 id="landingTitle">Cryptocurrency made easy through a simulation game.</h2>
+					<p id="landingDescription">Create a free account with 10k virtual dollars and learn how to buy and sell cryptocurrencies with real time prices.</p>
+					<p align="left"><button id="startTradingBtn">Start Trading</button></p>
+
+					<img src="images/Macbook.png" style="width: 50%; margin-top: -25%; margin-left: 40%">
+					<label for="i3" class="pre">
+						<span id="previousArrow">&#x2039;</span>
+					</label>
+					<label for="i2" class="nxt">
+						<span id="nextArrow">&#x203a;</span>
+					</label>
+				</div>
+
+				<div class="slide_img" id="twoImage">
+					<h2 id="landingTitle_Netflix">Cryptocup is coming soon.</h2>
+					<p id="presentedBy">Presented by    <img src="images/coinsquare.png" id="coinsquarePic"></p>
+
+					<p id="landingDescription_Netflix">Want to take your crypto education to the next level? Compete in myCryptoHippo's Cryptocup to earn prizes based on the highest net worth.</p>
+					<p align="left"><button id="ourMissionBtn">Learn More</button></p>
+					<img src="images/CryptoCup.png" id="fullCryptoCupHippoPic">
+					<label for="i1" class="pre">
+						<span id="previousArrow">&#x2039;</span>
+					</label>
+					<label for="i3" class="nxt">
+						<span id="nextArrow">&#x203a;</span>
+					</label>
+				</div>
+
+				<div class="slide_img" id="threeImage">
+					<h2 id="landingTitle_Netflix">Making crypto as easy as binge-watching netflix.</h2>
+					<p id="landingDescription_Netflix">At myCryptoHippo we have made it our mission to make learning about these technologies accessible and easy.</p>
+					<p align="left"><button id="ourMissionBtn">Our Mission</button></p>
+					<img src="images/Asset13.png" id="hippoLyingDown">
+					<label for="i2" class="pre">
+						<span id="previousArrow">&#x2039;</span>
+					</label>
+					<label for="i1" class="nxt">
+						<span id="nextArrow">&#x203a;</span>
+					</label>
+				</div>
+
+				<div class="navBanner">
+					<label class="dots" id="dot1" for="i1"></label>
+					<label class="dots" id="dot2" for="i2"></label>
+					<label class="dots" id="dot3" for="i3"></label>
+				</div>
+
+			</div>
 			
 			
 		</section>

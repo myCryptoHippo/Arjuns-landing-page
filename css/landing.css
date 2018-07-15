@@ -4151,6 +4151,126 @@
   }
 
 /*LANDING TOP BANNER*/
+.bannerContainerSlideshow {
+	margin: 0 auto;
+	margin-top: 2px;
+	position: absolute;
+	width: 100%;
+	height: 0;
+	padding-bottom: 40%;
+	background: white;
+	border:solid: 10px #2c2c2c;
+	top: 60px;
+
+}
+
+.bannerContainerSlideshow .slide_img{
+	position: absolute;
+	width: 100%;
+	height: 85%
+}
+
+.bannerContainerSlideshow .slide_img img {
+	width: 100%;
+	height: 85%;
+}
+
+#i1, #i2, #i3 {
+	display: none;
+}
+
+.pre .nxt {
+	width: 12%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: rgba(88, 88, 88,.9);
+	color:rgba(244, 244, 244,.9);
+	z-index: 99;
+	transition: .45s;
+	cursor: pointer;
+	text-align: center;
+}
+
+.pre {
+	left:0;
+}
+
+.nxt {
+	right: 0;
+}
+
+label span{
+		position: absolute;
+		font-size: 100pt;
+		top: 50%;
+	 	transform: translateY(-40%);
+	}
+
+
+#previousArrow {
+	
+	color: #B3B3B3;
+	left: 20px;
+	cursor: pointer;
+	height: 100%;
+	padding-top: 13%;
+	width: 8%;
+}
+
+#nextArrow {
+	
+	color:red;
+	padding-top: 13%;
+	width: 8%;
+	right: 10px;
+	height: 100%;
+	color: #B3B3B3;
+	cursor: pointer;
+}
+
+#previousArrow:hover, #nextArrow:hover{
+		transition: .2s;
+		background-color: rgba(88, 88, 89,.12);
+		
+	}
+
+.navBanner {
+	width: 100%;
+	height: 11px;
+	bottom: 12%;
+	position: absolute;
+	text-align: center;
+	z-index: 99;
+}
+
+.dots {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 25px 10px;
+	position: relative;
+	border-radius: 50%;
+	display: inline-block;
+	background: #B3B3B3;
+	cursor: pointer;
+}
+
+.slide_img {
+	z-index: -1;
+}
+
+#i1:checked ~ #oneImage,
+#i2:checked ~ #twoImage,
+#i3:checked ~ #threeImage {
+	z-index: 9;
+}
+
+#i1:checked ~ .navBanner #dot1,
+#i2:checked ~ .navBanner #dot2,
+#i3:checked ~ .navBanner #dot3 {
+	background: #A95086;
+}
 
 #leftColumnTopBannerLanding{
 	width: 50%;
@@ -4172,20 +4292,20 @@
  #landingTitle {
 	color:black;
   	font-family: 'Open Sans';
-  	font-size:25pt;
+  	font-size:20pt;
   	text-align: left;
-  	font-weight: bold;
-  	width: 80%;
-  	float: left;
-  	margin-left: 20%;
+  	font-weight: 900;
+  	width: 35%;
+  	margin-top: 10%;
+  	margin-left: 10%;
  }
 
  #landingDescription{
- 	width: 60%;
+ 	width: 35%;
   	text-align: left;
   	font-size: 16pt;
   	color: #4D4D4D;
-  	margin-left: 20%;
+  	margin-left: 10%;
  }
 
  #startTradingBtn{
@@ -4199,9 +4319,106 @@
   	font-size: 14px;
   	border-radius: 5px;
   	cursor: pointer;
-  	margin-left: 20%;
-  	margin-top: 5%;
+  	margin-left: 10%;
+  	margin-top: 2%;
  }
+
+ #cryptocupBannerTitle {
+	color:black;
+  	font-family: 'Open Sans';
+  	font-size:20pt;
+  	text-align: left;
+  	font-weight: 900;
+  	width: 5070%;
+  	margin-top: 200%;
+  	margin-left: -250%;
+ }
+
+ #presentedBy{
+ 	margin-left: -63%;
+ 	margin-top: -1%;
+ 	margin-bottom: 2%;
+ 	float: left;
+ 	color: black;
+ }
+
+ #coinsquarePic{
+ 	width: 6%;
+ 	height: 4%;
+ 	
+ }
+
+ #cryptocupBannerDescription{
+ 	width: 200%;
+  	text-align: left;
+  	font-size: 16pt;
+  	color: #4D4D4D;
+  	margin-left: -250%;
+
+ }
+
+ #learnMoreBannerBtn{
+ 	color: white;
+  	background-color: #62B6DC;
+  	border: none;
+  	padding: 10px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+  	border-radius: 5px;
+  	cursor: pointer;
+  	margin-left: -250%;
+ }
+
+ #fullCryptoCupHippoPic{
+ 	width: 23%;
+ 	height: 100%;
+ 	margin-left: 45%;
+ 	margin-top: -28%;
+ }
+
+ #hippoLyingDown{
+ 	margin-left: 45%;
+ 	margin-top: -25%;
+ 	width: 33%;
+
+ }
+
+ #landingTitle_Netflix {
+	color:black;
+  	font-family: 'Open Sans';
+  	font-size:20pt;
+  	text-align: left;
+  	font-weight: 900;
+  	width: 35%;
+  	margin-top: 10%;
+  	margin-left: 10%;
+ }
+
+ #landingDescription_Netflix{
+ 	width: 35%;
+  	text-align: left;
+  	font-size: 16pt;
+  	color: #4D4D4D;
+  	margin-left: 10%;
+ }
+
+ #ourMissionBtn{
+ 	color: white;
+  	background-color: #62B6DC;
+  	border: none;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+  	border-radius: 5px;
+  	cursor: pointer;
+  	margin-left: 10%;
+  	margin-top: 2%;
+ }
+
 
 
 /*WHAT IS CRYPTOCURRENCY SECTION*/
