@@ -4153,7 +4153,7 @@
 /*LANDING TOP BANNER*/
 .bannerContainerSlideshow {
 	margin: 0 auto;
-	margin-top: 2px;
+	margin-top: -25px;
 	position: absolute;
 	width: 100%;
 	height: 0;
@@ -4256,6 +4256,10 @@ label span{
 	cursor: pointer;
 }
 
+.dots:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.4); 
+}
+
 .slide_img {
 	z-index: -1;
 }
@@ -4323,6 +4327,10 @@ label span{
   	margin-top: 2%;
  }
 
+ #startTradingBtn:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.4); 
+}
+
  #cryptocupBannerTitle {
 	color:black;
   	font-family: 'Open Sans';
@@ -4371,6 +4379,10 @@ label span{
   	margin-left: -250%;
  }
 
+ #learnMoreBannerBtn:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.4); 
+}
+
  #fullCryptoCupHippoPic{
  	width: 23%;
  	height: 100%;
@@ -4418,6 +4430,11 @@ label span{
   	margin-left: 10%;
   	margin-top: 2%;
  }
+
+#ourMissionBtn:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.4); 
+}
+
 
 
 
@@ -4486,6 +4503,10 @@ label span{
   	cursor: pointer;
   }
 
+  #LearnMorebtn:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.4); 
+}
+
   #sectionTitle{
   	color:black;
   	font-family: 'Open Sans';
@@ -4511,7 +4532,12 @@ label span{
   	border-radius: 15px;
   	float: left;
   	margin-left: 4%;
+  	transition: box-shadow .2s;
   }
+
+  #riskFreeBox:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.8); 
+}
 
   #riskFreeTitle{
   	color: #8D369B;
@@ -4540,6 +4566,11 @@ label span{
   	border-radius: 15px;
   	float: left;
   	margin-left: 3%;
+  	transition: box-shadow .2s;
+  }
+
+  #funBox:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.8); 
 }
 
 #funTitle{
@@ -4569,6 +4600,11 @@ label span{
   	border-radius: 15px;
   	float: left;
   	margin-left: 3%;
+  	transition: box-shadow .2s;
+  }
+
+  #globalBox:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.8); 
 }
 
 #globalTitle{
@@ -4599,6 +4635,11 @@ label span{
   	float: left;
   	margin-left: 20%;
   	margin-top: 2%;
+  	transition: box-shadow .2s;
+  }
+
+  #prizesBox:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.8); 
 }
 
 #prizesTitle{
@@ -4629,6 +4670,11 @@ label span{
   	float: left;
   	margin-left: 3%;
   	margin-top: 2%;
+  	transition: box-shadow .2s;
+  }
+
+  #easyBox:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.8); 
 }
 
 #easyTitle{
@@ -4699,6 +4745,10 @@ label span{
   	cursor: pointer;
  }
 
+ #takeMeThereBtn:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.4); 
+}
+
  /*JOIN TODAY SECTION*/
 #joinTodaySection {
 	color: #8D369B;
@@ -4723,6 +4773,10 @@ label span{
   	margin-top: 3%;
   	margin-bottom: 0%;
   	cursor: pointer;
+}
+
+#getThatMoneyBtn:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.4); 
 }
 
 
@@ -4831,6 +4885,10 @@ label span{
   	cursor: pointer;
 }
 
+#submitBtn:hover {
+  box-shadow: 0 0 15px rgba(33,33,33,.4); 
+}
+
 #footerLinks {
 	cursor:pointer;
 	text-decoration: none;
@@ -4840,7 +4898,6 @@ label span{
 #footerIcons {
 	padding-top: 20%;
 }
-
 
 
 
